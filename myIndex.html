@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IT Change Career</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='myStyles.css' rel="stylesheet">
+        <script src="myScripts.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body onload="hideYourScore()">
+
+      <div id="container">
+        
+
+          <div id="gameContainer">
+            <div id="cover">
+
+                    <!-- fireworks -->
+      <div id="fireworks">
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+      </div>
+      <!-- end fireworks-->
+              <h1 id="youGot">Lets do some maths!</h1>
+              <h2 id="yourFinalScore"></h2>
+              
+              
+                <button class="playButtons blue" id="startMiniMaths" onclick="reloadMiniMaths();">Go!</button>
+                
+            
+            </div>
+                  <div id="quizContainer">
+          
+                      <p id="ques1"></p>
+                      <p id="oper"></p>
+                      <p id="ques2"></p>
+                      <p id="equals">=</p>
+                      <p id="ans"></p>
+                      
+                      
+                      
+                  </div>
+              <div id = "answerButtons">
+                <button id="correctAns" onclick="correctAnswer();"></button>
+                <button class="wrongButts" id="wrongAnswer" onclick="wrongAnswer(this.id);"></button>
+                <button class="wrongButts" id="wrongAnswer2" onclick="wrongAnswer(this.id);"></button>
+                </div>
+          
+            
+
+        </div>
+        
+          <div id="flexBox">
+
+            
+              <div>
+                <h2>Timer</h2>
+                <p id="countDownTimer"> - </p>
+              </div>
+                
+
+                <div>
+
+                  <h2> Score</h2>
+                    <p id="yourScore"> - </p>
+                </div>
+                <div>
+
+                  <h2>Best Score</h2>
+                    <p id="bestScore"> - </p>
+                </div>
+          </div>
+
+          <div class="center"><button id="reloadAll" class="playButtons simple" onclick="reloadAll();"><i class="fa fa-refresh" aria-hidden="true">&nbsp;<small></small></i></button></div>
+          
+  </div>
+  
+
+
+
+  </body>
+
+    </html>
