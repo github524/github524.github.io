@@ -6,7 +6,7 @@ function hideYourScore() {
 var countDown;
 var timeLeft;
 function countDownClock() {
-  timeLeft = 7;
+  timeLeft = 120;
   var text = document.getElementById("countDownTimer");
   document.getElementById("fireworks").style.display = "none";
   document.getElementById("youGot").innerHTML = "Lets do some maths!";

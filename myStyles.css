@@ -3,12 +3,12 @@
 }
 body {
     background-color: black;
+    margin: 0;
 }
 #container {
-    /* position:relative; */
     background-color: black;
     max-width: 1200px;
-    height: 100vh;
+    width: 100%;
     margin: 0px auto;
     /* padding:20px; */
 }
@@ -92,6 +92,7 @@ body {
     color:white;
     background-color: black;
     border-radius: 4px;
+    text-align: center;
 }
 
 #flexBox {
@@ -130,9 +131,9 @@ body {
     font-size: 2em;
 }
 
-.blue {
+.green {
     box-shadow: 10px 5px 5px orange;
-    background-color: blue;
+    background-color: rgb(4, 85, 4);
     width:100px;
     height:50px;
 }
